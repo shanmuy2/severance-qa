@@ -18,9 +18,27 @@ public class PracticeJavaTest {
 	
 		System.out.println("First Method is executed testing 4 is done");
 	}
+	
+	private void india() {
+		System.out.println("WInner");
+
+	}
+	
+	private void pakisthan() {
+		System.out.println("Runner");
+
+	}
+	
+	
+	private void bangladesh() {
+		System.out.println("disqulaified");
+	}
 
 	public static void main(String[] args) {
 		PracticeJavaTest objectName = new PracticeJavaTest();
 		objectName.firstMethod();
+		objectName.india();
+			
+		
 	}
 }
