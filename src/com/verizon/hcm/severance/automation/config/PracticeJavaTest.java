@@ -1,5 +1,7 @@
 package com.verizon.hcm.severance.automation.config;
 
+import com.verizon.hcm.severance.automation.javacourse.EmployeeId;
+
 public class PracticeJavaTest {
 
 	private void firstMethod() {
@@ -39,6 +41,11 @@ public class PracticeJavaTest {
 		objectName.firstMethod();
 		objectName.india();
 			
+		EmployeeId employeeId = new EmployeeId();
+		
+		employeeId.raguEmployee();
+		
+		
 		
 	}
 }
