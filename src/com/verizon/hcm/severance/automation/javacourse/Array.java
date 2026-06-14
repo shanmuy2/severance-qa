@@ -9,11 +9,12 @@ public class Array {
 //it is fixed in size
 
 	public static void main(String[] args) {
-		String a[] = new String[3];
+		String a[] = new String[4];
 
 		a[0] = "Yespal";
 		a[1] = "Sagana";
-		a[2] = "dhodho";
+		a[2] = "mayuluu";
+		a[3]="test";
 		// int length = a.length;
 		/*for (int i = 0; i < a.length; i++) {
 			System.out.println(a[i]);
@@ -27,4 +28,4 @@ public class Array {
 		
 		
 	}
-}
+}   
